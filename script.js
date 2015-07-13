@@ -8,7 +8,7 @@ var cohort = {
   students : students,
   pickStudent : function(){
   var num = Math.floor(Math.random() * this.students.length);
-  console.log(this.students[num].name);
+  document.getElementById('show').innerHTML = this.students[num].name;
 }
 };
 
